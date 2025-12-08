@@ -26,6 +26,5 @@ def get_files_info(working_directory, directory="."):
 
         return result;
 
-
     except Exception():
         return "An unknown error occured";
