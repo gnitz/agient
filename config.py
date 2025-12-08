@@ -1,0 +1,1 @@
+MAX_FILE_CONTENT_LENGTH = 10000; #max number of chararcters that will be read from the file
