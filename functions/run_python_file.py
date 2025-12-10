@@ -24,7 +24,7 @@ def run_python_file(working_directory, file_path, args=[]):
             capture_output=True
             );
                     
-        if not proc_result.stdout:
+        if not proc_result.stdout and not proc_result.stderr:
             return "No output produced";
 
         if proc_result.returncode != 0:
